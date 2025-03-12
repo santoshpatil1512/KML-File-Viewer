@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>My Current Location</name>
+    <Placemark>
+      <name>Current Location</name>
+      <description>This is a sample marker for your current location. Replace the coordinates with your actual location if needed.</description>
+      <Point>
+        <!-- Replace these coordinates with your actual longitude,latitude (altitude optional) -->
+        <coordinates>77.5946,12.9716,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
