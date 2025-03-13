@@ -1,6 +1,6 @@
 // Importing necessary hooks and components
 import { useState } from "react";
-import FileUploadd from "./components/FileUpload";  // Component to handle file uploads
+import FileUpload from "./components/FileUpload";  // Component to handle file uploads
 import SummaryTable from "./components/SummaryTable"; // Component to display summary data
 import DetailTable from "./components/DetailTable"; // Component to display detailed data
 import MapView from "./components/MapView"; // Component to render the map with KML elements
@@ -48,7 +48,7 @@ const App = () => {
       {showDetails && <DetailTable elements={elements} />} {/* Only renders if showDetails is true */}
 
       {/* Always Render Map Component to Show KML Elements */}
-      <MapView elements={elements} />
+      {/* <MapView elements={elements} /> */}
     </div>
   );
 };
