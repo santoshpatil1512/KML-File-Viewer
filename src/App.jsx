@@ -1,6 +1,6 @@
 // Importing necessary hooks and components
 import { useState } from "react";
-import FileUpload from "./components/FileUpload";  // Component to handle file uploads
+import FileUploadd from "./components/FileUpload";  // Component to handle file uploads
 import SummaryTable from "./components/SummaryTable"; // Component to display summary data
 import DetailTable from "./components/DetailTable"; // Component to display detailed data
 import MapView from "./components/MapView"; // Component to render the map with KML elements
