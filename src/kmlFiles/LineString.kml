@@ -1,0 +1,10 @@
+<kml>
+  <Document>
+    <Placemark>
+      <Point><coordinates>-122.082,37.422,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <LineString><coordinates>-122.085,37.423 -122.086,37.424</coordinates></LineString>
+    </Placemark>
+  </Document>
+</kml>
