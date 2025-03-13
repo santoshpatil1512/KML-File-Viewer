@@ -48,7 +48,7 @@ const App = () => {
       {showDetails && <DetailTable elements={elements} />} {/* Only renders if showDetails is true */}
 
       {/* Always Render Map Component to Show KML Elements */}
-      {/* <MapView elements={elements} /> */}
+      <MapView elements={elements} />
     </div>
   );
 };
