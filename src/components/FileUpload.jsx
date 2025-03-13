@@ -7,7 +7,7 @@ const FileUpload = ({ onFileParsed }) => {
   const handleFileUpload = (event) => {
     const file = event.target.files[0];
     if (file && file.name.endsWith(".kml")) {
-      const reader = new FileReader();
+      const reader = new FileReader(); //
       reader.onload = (e) => {
         try {
           const result = parseKML(e.target.result);
